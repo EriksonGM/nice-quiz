@@ -4,7 +4,14 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/tailwind.css'],
-  vite: {    plugins: [      tailwindcss(),    ],  },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
+  alias: {
+    '~/server': './server'
+  },
   modules: [
     '@nuxt/icon',
     '@nuxt/fonts',

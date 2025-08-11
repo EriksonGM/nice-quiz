@@ -8,6 +8,13 @@
       "when": 1754919662482,
       "tag": "0000_minor_patch",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1754920571181,
+      "tag": "0001_parallel_spyke",
+      "breakpoints": true
     }
   ]
 }

@@ -51,6 +51,9 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.18(typescript@5.9.2))
     devDependencies:
+      '@iconify-json/lucide':
+        specifier: ^1.2.62
+        version: 1.2.62
       drizzle-kit:
         specifier: ^0.31.4
         version: 0.31.4
@@ -763,6 +766,9 @@ packages:
   '@humanwhocodes/retry@0.4.3':
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
+
+  '@iconify-json/lucide@1.2.62':
+    resolution: {integrity: sha512-K0KfhvP5YQZ2KraOgCm6jJbwwzQCVocvXcdMpDou5uLa48QnLBRW/dQ8VDGmxHTGpwF9EqLlvnUSinH2i6xs3Q==}
 
   '@iconify/collections@1.0.581':
     resolution: {integrity: sha512-e+6HvVMkfLGcQKDD/hvAvLNyPl9iW6ZrnNIi15NtXUq5i065oytyUxJEmjkdWAZbqabTHexiUoIdA8egjxvRYw==}
@@ -5865,6 +5871,10 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.3': {}
+
+  '@iconify-json/lucide@1.2.62':
+    dependencies:
+      '@iconify/types': 2.0.0
 
   '@iconify/collections@1.0.581':
     dependencies:
